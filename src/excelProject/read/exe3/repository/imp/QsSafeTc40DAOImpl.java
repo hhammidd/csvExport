@@ -1,7 +1,7 @@
 package excelProject.read.exe3.repository.imp;
 
 import csvProjects.read.exe3.model3.Country;
-import csvProjects.read.exe3.repository.QsSafeTc40DAO;
+import csvProjects.read.exe3.repository.QsDAO;
 
 import java.io.*;
 import java.text.ParseException;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class QsSafeTc40DAOImpl implements QsSafeTc40DAO {
+public class QsSafeTc40DAOImpl implements QsDAO {
 
     private final static String FILE_VISA_PREFIX = "TC40_";
     private final static String FILE_WEEKLY_BIN_VISA_PREFIX = "TC40_BIN_";
